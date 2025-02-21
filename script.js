@@ -21,7 +21,7 @@ const countdown = () =>{
 
 
   //Update the html date 
-  if (gap >0){
+  if (gap > 0){
     document.querySelector('.day').innerHTML = textDay;
     document.querySelector('.hour').innerHTML = textHour;
     document.querySelector('.minute').innerHTML = textMinute;
