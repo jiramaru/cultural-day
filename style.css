@@ -13,7 +13,8 @@ body {
 
 h2 {
   font-size: 3rem;
-  color: #3f3d56;
+  /*color: #3f3d56;*/
+  color: #2b322a;
   font-weight: bold;
   padding: 3rem;
 }
@@ -26,8 +27,20 @@ h2 {
   justify-content: center;
 }
 
+#title {
+  display: none;
+}
+
+.walking {
+  font-size: 1.8rem;
+  margin-bottom: 50px;
+  color:#bb7402;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
 .countdown {
-  display: flex;
+  display: none;
   justify-content: center;
   text-align: center;
   padding-bottom: 3rem;
